@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+}
+
+header {
+	margin-top: 16px;
+}
+
+main {
+	margin-top: 32px;
+}
+
+main h2 {
+	margin-top: 16px;
+}
+
+main img {
+	margin-top: 16px;
+}
+
+main p {
+	padding: 8px 16px 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+	margin: 0;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+p {
+	margin: 0;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	width: calc(100% - 64px);
+	box-sizing: border-box;
+	padding: 32px 0;
+}
+
+#ba-90 {
+	cursor: pointer;
+}
+
+#ba-90:hover {
+	opacity: .8;
+}
